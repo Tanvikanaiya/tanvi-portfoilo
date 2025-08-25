@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  scroll-behavior: smooth;
+  background: #f8fafc;
+}
+
+.container {
+  @apply max-w-6xl mx-auto px-4;
+}
+
+.section {
+  @apply py-24;
+}
+
+.card {
+  @apply bg-white rounded-2xl shadow-soft p-6;
+}
+
+.badge {
+  @apply inline-flex items-center rounded-full border px-3 py-1 text-sm font-medium;
+}
