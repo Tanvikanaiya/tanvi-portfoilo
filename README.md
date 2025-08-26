@@ -4,3 +4,4 @@
 ```bash
 npm install
 npm run dev
+npm install emailjs-com react-hot-toast
